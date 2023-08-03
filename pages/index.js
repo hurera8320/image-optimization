@@ -47,45 +47,6 @@ export default function Home() {
         height={37}
       />
     </div>
-    <div className='image-container'>
-    <Image
-        src="/notebook-svgrepo-com.svg"
-        alt="Vercel Logo"
-        width={400}
-        height={400}
-      />
-      <Image
-        src="/notebook-svgrepo-com.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/notebook-svgrepo-com.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-
-      <Image
-        src="/notebook-svgrepo-com.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/notebook-svgrepo-com.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/notebook-svgrepo-com.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-    </div>
 
 
     </>
