@@ -51,8 +51,8 @@ export default function Home() {
     <Image
         src="/notebook-svgrepo-com.svg"
         alt="Vercel Logo"
-        width={100}
-        height={24}
+        width={400}
+        height={400}
       />
       <Image
         src="/notebook-svgrepo-com.svg"
