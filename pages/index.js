@@ -10,120 +10,6 @@ export default function Home() {
 
     <div className='image-container'>
     <Image
-        src="/vercel.svg"
-        alt="Vercel Logo"
-        width={100}
-        height={24}
-      />
-      <Image
-        src="/next.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com (1).svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com (2).svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com (3).svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-    </div>
-    <div className='image-container'>
-    <Image
-        src="/vercel.svg"
-        alt="Vercel Logo"
-        width={100}
-        height={24}
-      />
-      <Image
-        src="/next.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com (1).svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com (2).svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com (3).svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-    </div>
-    <div className='image-container'>
-    <Image
-        src="/vercel.svg"
-        alt="Vercel Logo"
-        width={100}
-        height={24}
-      />
-      <Image
-        src="/next.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com (1).svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com (2).svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com (3).svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-      <Image
-        src="/web-site-svgrepo-com.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-      />
-    </div>
-    <div className='image-container'>
-    <Image
         src="/1690525371exotic-beach-in-the-summer.svg"
         alt="Vercel Logo"
         width={100}
@@ -137,6 +23,7 @@ export default function Home() {
       />
       <Image
         src="/1690525371exotic-beach-in-the-summer.svg"
+        blurDataURL='/logo.png'
         alt="Next.js Logo"
         width={180}
         height={37}
