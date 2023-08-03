@@ -22,7 +22,7 @@ export default function Home() {
         height={37}
       />
       <Image
-        src="/1690525371exotic-beach-in-the-summer.svg"
+        src="/trail-5yOnGsKUNGw-unsplash.jpg"
         blurDataURL='/logo.png'
         alt="Next.js Logo"
         width={180}
