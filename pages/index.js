@@ -25,8 +25,8 @@ export default function Home() {
         src="/trail-5yOnGsKUNGw-unsplash.jpg"
         blurDataURL='/logo.png'
         alt="Next.js Logo"
-        width={180}
-        height={37}
+        width={400}
+        height={400}
       />
       <Image
         src="/1690525371exotic-beach-in-the-summer.svg"
@@ -66,6 +66,7 @@ export default function Home() {
         width={180}
         height={37}
       />
+
       <Image
         src="/notebook-svgrepo-com.svg"
         alt="Next.js Logo"
