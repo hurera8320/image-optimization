@@ -174,7 +174,7 @@ export default function Home() {
         height={37}
       />
       <Image
-        src="/web-site-svgrepo-com (1).svg"
+        src="/web-site-svgrepo-com (2).svg"
         alt="Next.js Logo"
         width={180}
         height={37}
@@ -186,13 +186,13 @@ export default function Home() {
         height={37}
       />
       <Image
-        src="/web-site-svgrepo-com (3).svg"
+        src="/web-site-svgrepo-com (2).svg"
         alt="Next.js Logo"
         width={180}
         height={37}
       />
       <Image
-        src="/web-site-svgrepo-com.svg"
+        src="/web-site-svgrepo-com (2).svg"
         alt="Next.js Logo"
         width={180}
         height={37}
