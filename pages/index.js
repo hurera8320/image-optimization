@@ -30,8 +30,6 @@ export default function Home() {
     <div className='image-container'>
       <Image
         src="/trail-5yOnGsKUNGw-unsplash.jpg"
-        blurDataURL='/trail-5yOnGsKUNGw-unsplash_11zon.jpg'
-        placeholder='blur'
         alt="Next.js Logo"
         width={400}
         height={400}
