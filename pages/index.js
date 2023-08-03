@@ -124,37 +124,37 @@ export default function Home() {
     </div>
     <div className='image-container'>
     <Image
-        src="/vercel.svg"
+        src="/1690525371exotic-beach-in-the-summer.svg"
         alt="Vercel Logo"
         width={100}
         height={24}
       />
       <Image
-        src="/next.svg"
+        src="/1690525371exotic-beach-in-the-summer.svg"
         alt="Next.js Logo"
         width={180}
         height={37}
       />
       <Image
-        src="/web-site-svgrepo-com (1).svg"
+        src="/1690525371exotic-beach-in-the-summer.svg"
         alt="Next.js Logo"
         width={180}
         height={37}
       />
       <Image
-        src="/web-site-svgrepo-com (2).svg"
+        src="/1690525371exotic-beach-in-the-summer.svg"
         alt="Next.js Logo"
         width={180}
         height={37}
       />
       <Image
-        src="/web-site-svgrepo-com (3).svg"
+        src="/1690525371exotic-beach-in-the-summer.svg"
         alt="Next.js Logo"
         width={180}
         height={37}
       />
       <Image
-        src="/web-site-svgrepo-com.svg"
+        src="/1690525371exotic-beach-in-the-summer.svg"
         alt="Next.js Logo"
         width={180}
         height={37}
