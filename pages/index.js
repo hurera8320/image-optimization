@@ -23,7 +23,8 @@ export default function Home() {
       />
       <Image
         src="/trail-5yOnGsKUNGw-unsplash.jpg"
-        priority
+        blurDataURL='/notebook-svgrepo-com.svg'
+        placeholder='blur'
         alt="Next.js Logo"
         width={400}
         height={400}
