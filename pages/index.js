@@ -71,6 +71,7 @@ export default function Home() {
         <section>
           <h1> Using low quality Image as placeholder </h1>
           <div
+          className={styles.samePosition}
             style={{ visibility: !imageLoading && "hidden" }}
           >
             <Image
@@ -81,6 +82,7 @@ export default function Home() {
             />
           </div>
           <div
+          className={styles.samePosition}
             style={{ visibility: imageLoading && "hidden" }}
           >
             <Image
