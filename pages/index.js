@@ -48,6 +48,7 @@ export default function Home() {
                   className={styles.image}
                   src={image.src}
                   alt={image.src}
+                  priority={index%2 === 0 ? true : false}
                   placeholder="blur"
                   blurDataURL={image.blurUrl}
                   layout="fill"
