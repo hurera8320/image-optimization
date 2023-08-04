@@ -27,6 +27,7 @@ export default function Home() {
                 src={image}
                 alt="masahiro-miyagi-xk0-YHAn3dzk-unsplash"
                 layout="fill"
+                placeholder="bulr"
               />
             </div>
             <figcaption className={styles.imageCaption}>
