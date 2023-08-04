@@ -85,6 +85,7 @@ export default function Home() {
           className={styles.samePosition}
             style={{ visibility: imageLoading && "hidden" }}
           >
+            placeholderimage
             <Image
               width={400}
               height={400}
