@@ -17,8 +17,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.body}>
-        <h1>Using BlurDataUrl in NextJs</h1>
         <section className={styles.section}>
+        <h1>Unoptimized Images</h1>
           <figure>
             <div className={styles.imageWrapper}>
               <Image
@@ -44,6 +44,7 @@ export default function Home() {
 
         </section>
         <section className={styles.section}>
+        <h1>optimized Images using blurDataUrl and placeholder</h1>
           {images.map((image, index) => (
             <figure key={index}>
               <div className={styles.imageWrapper}>
