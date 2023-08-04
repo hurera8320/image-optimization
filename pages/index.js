@@ -3,8 +3,11 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import image from "../public/masahiro-miyagi-xk0YHAn3dzk-unsplash.jpg";
 import images from "../public/images";
+import { useState } from "react";
 
 export default function Home() {
+
+  const [imageLoading , setImageLoading] = useState(false)
 
   return (
     <div className={styles.container}>
@@ -60,6 +63,27 @@ export default function Home() {
               </figcaption>
             </figure>
           ))} </section>
+
+          <section>
+            <h1> Using low quality Image as placeholder </h1>
+            { !imageLoading ? <Image 
+            width={400}
+            height={400}
+            src='/trail-5yOnGsKUNGw-unsplash.jpg'
+            onLoad={()=> { setImageLoading(true) }}
+            onLoadingComplete={()=> { setImageLoading(false) }}
+            />  : 
+            <Image 
+            width={400}
+            height={400}
+            src='/trail-5yOnGsKUNGw-unsplash_11zon.jpg'
+            layout="fill"
+            placeholder="blur"
+            priority
+            />
+            }
+
+          </section>
       </main>
     </div>
   );
