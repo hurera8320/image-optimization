@@ -56,6 +56,7 @@ export default function Home() {
               </div>
               <figcaption className={styles.imageCaption}>
                 Image {index + 3} is stored remotely and uses a placeholder.
+                <h3>{index%2 === 0 && "Priority Image"} </h3>
               </figcaption>
             </figure>
           ))} </section>
